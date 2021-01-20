@@ -10,7 +10,6 @@ numpy_horizontal_concat=np.concatenate((image,grey_3_channel),axis=1)
 cv2.imshow("flower",numpy_horizontal_concat)
 cv2.waitKey()
 
-![image](https://user-images.githubusercontent.com/72369402/105162585-d7197c80-5b38-11eb-900f-dab487d03577.png)
 
 
 import cv2
