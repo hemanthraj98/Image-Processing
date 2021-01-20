@@ -33,6 +33,9 @@ img=cv2.imread("flower1.jpg")
 M=cv2.getRotationMatrix2D((cols / 2, rows / 2),135,1)
 res=cv2.warpAffine(img,M,(cols,rows))
 cv2.imshow("result.jpg",res)
+![op3](https://user-images.githubusercontent.com/72369402/105165941-f61a0d80-5b3c-11eb-9089-980c40bb5411.PNG)
+![op4](https://user-images.githubusercontent.com/72369402/105166215-409b8a00-5b3d-11eb-8f2e-0786ac1c5f64.PNG)
+
 cv2.waitKey(0)
 
 ![op](https://user-images.githubusercontent.com/72369402/105164279-f6190e00-5b3a-11eb-8b2f-4c34fc15cd50.png)
