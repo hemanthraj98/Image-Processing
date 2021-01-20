@@ -13,8 +13,6 @@ cv2.waitKey()
 
 ![output](https://user-images.githubusercontent.com/72369402/105163284-ba317900-5b39-11eb-9103-313528df9fee.png)
 
-
-
 import cv2
 import numpy as np
 img=cv2.imread('flower1.jpg')
@@ -24,3 +22,15 @@ cv2.imwrite('result.jpg',res)
 cv2.imshow('image',img)
 cv2.imshow('result',res)
 cv2.waitKey(0)
+
+
+import cv2
+import numpy as np
+img=cv2.imread("flower1.jpg")
+(rows,cols) = img.shape[:2]
+M=cv2.getRotationMatrix2D((cols / 2, rows / 2),135,1)
+res=cv2.warpAffine(img,M,(cols,rows))
+cv2.imshow("result.jpg",res)
+cv2.waitKey(0)
+
+![op](https://user-images.githubusercontent.com/72369402/105164279-f6190e00-5b3a-11eb-8b2f-4c34fc15cd50.png)
