@@ -11,6 +11,9 @@ cv2.imshow("flower",numpy_horizontal_concat)
 cv2.waitKey()
 
 
+![output](https://user-images.githubusercontent.com/72369402/105163284-ba317900-5b39-11eb-9103-313528df9fee.png)
+
+
 
 import cv2
 import numpy as np
