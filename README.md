@@ -22,6 +22,8 @@ cv2.imwrite('result.jpg',res)
 cv2.imshow('image',img)
 cv2.imshow('result',res)
 cv2.waitKey(0)
+![op1](https://user-images.githubusercontent.com/72369402/105165079-e5b56300-5b3b-11eb-9756-e4dcefaae1dd.png)
+![op2](https://user-images.githubusercontent.com/72369402/105165107-ec43da80-5b3b-11eb-8fa2-959c0dc197ef.png)
 
 
 import cv2
