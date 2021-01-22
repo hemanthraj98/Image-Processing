@@ -50,6 +50,7 @@ cv2.waitKey(0)
 ![op1](https://user-images.githubusercontent.com/72369402/105165079-e5b56300-5b3b-11eb-9756-e4dcefaae1dd.png)
 ![op2](https://user-images.githubusercontent.com/72369402/105165107-ec43da80-5b3b-11eb-8fa2-959c0dc197ef.png)
 
+
 **B)Rotation:** 
          **Description:** 
                 Image rotation is a common image processing routine used to rotate images at any desired angle. This helps in image reversal,flipping, and obtaining an intended view of the image. Image rotation has applications in matching, alignment, and other image-based algorithms. OpenCV is a well-known library used for image processing. 
