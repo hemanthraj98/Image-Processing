@@ -68,8 +68,8 @@ cv2.waitKey(0)
 
 **output**
 
-![op3](https://user-images.githubusercontent.com/72369402/105165941-f61a0d80-5b3c-11eb-9089-980c40bb5411.PNG)
-![op4](https://user-images.githubusercontent.com/72369402/105166215-409b8a00-5b3d-11eb-8f2e-0786ac1c5f64.PNG)
+![op](https://user-images.githubusercontent.com/72369402/105164279-f6190e00-5b3a-11eb-8b2f-4c34fc15cd50.png)
+
 
 **4. Develop a program to convert the color image to gray scale and binary image.**
 **Description:** 
@@ -92,7 +92,8 @@ cv2.destroyAllWindows()
 
 **output**
 
-![op](https://user-images.githubusercontent.com/72369402/105164279-f6190e00-5b3a-11eb-8b2f-4c34fc15cd50.png)
+![op3](https://user-images.githubusercontent.com/72369402/105165941-f61a0d80-5b3c-11eb-9089-980c40bb5411.PNG)
+![op4](https://user-images.githubusercontent.com/72369402/105166215-409b8a00-5b3d-11eb-8f2e-0786ac1c5f64.PNG)
 
 **5. Develop a program to convert the given color image to different color spaces.**
 **Description:**
